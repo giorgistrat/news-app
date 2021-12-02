@@ -1,0 +1,29 @@
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error-container__title {
+  font-size: clamp(5rem, 10vw, 13rem);
+}
+
+.error-container__para {
+  color: #ff0000;
+  text-transform: uppercase;
+  font-size: clamp(1rem, 2vw, 5rem);
+}
+
+.error-container__btn {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  background: #3f3351;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0 0 1px 1px rgb(255, 255, 255);
+}

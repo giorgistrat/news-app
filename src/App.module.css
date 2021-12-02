@@ -1,0 +1,42 @@
+.App {
+  color: #fff;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.news-container {
+  margin-top: 20px;
+}
+
+.news-container .news-logo {
+  font-weight: bold;
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  text-align: center;
+}
+
+.news-container .news-bar {
+  margin-top: 15px;
+  text-align: center;
+  padding: 10px 1rem;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-left: none;
+  border-right: none;
+}
+
+.news {
+  margin-top: 7rem;
+}
+
+.spinner-center {
+  display: flex;
+  justify-content: center;
+}
+
+.data-information {
+  text-align: center;
+  font-size: clamp(0.5rem, 4vw, 2rem);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f78356;
+}

@@ -1,0 +1,37 @@
+.form-container {
+  margin-top: 5rem;
+}
+
+.news-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-form .news-form__field {
+  width: 20rem;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: #1f1d36;
+  color: #fff;
+  box-shadow: 0 0 4px 0 rgb(255, 255, 255, 0.8);
+  font-weight: bold;
+}
+
+.news-form .news-form__btn {
+  padding: 13.5px 20px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #3f3351;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 0 4px 0 rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: clamp(0.3rem, 5vw, 0.7rem);
+}

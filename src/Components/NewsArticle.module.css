@@ -1,0 +1,34 @@
+.news-img-container {
+  max-width: 100%;
+}
+
+.news-img-container__image {
+  width: 100%;
+  min-height: auto;
+}
+
+.news-description {
+  margin-top: 20px;
+}
+
+.news-description__title {
+  font-size: clamp(2rem, 3vw, 5rem);
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-description__content {
+  color: #ccc;
+}
+
+.news-back {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.news-back__date {
+  text-decoration: underline;
+}
