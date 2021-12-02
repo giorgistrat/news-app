@@ -48,7 +48,7 @@ function App() {
       </div>
       <div className={styles["news"]}>
         <Switch>
-          <Route path='/' exact>
+          <Route path='/'>
             {news.length === 0 && loading === true ? (<p className={styles['data-information']}>No information was found</p>) : ''}
             {loading ?
               (news.map((newsItem, i) => (
