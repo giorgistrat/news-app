@@ -48,7 +48,7 @@ function App() {
       </div>
       <div className={styles["news"]}>
         <Switch>
-          <Route path='/' exact>
+          <Route path='' exact>
             {news.length === 0 && loading === true ? (<p className={styles['data-information']}>No information was found</p>) : ''}
             {loading ?
               (news.map((newsItem, i) => (
@@ -61,7 +61,7 @@ function App() {
           <Route path='/article/:id'>
             <NewsArticle newsArt={news} />
           </Route>
-          <Route path='' component={NotFound} />
+          <Route path='*' component={NotFound} />
         </Switch>
       </div>
     </div>
