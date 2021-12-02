@@ -61,7 +61,7 @@ function App() {
           <Route path='/article/:id'>
             <NewsArticle newsArt={news} />
           </Route>
-          <Route path='*' component={NotFound} />
+          <Route path='' component={NotFound} />
         </Switch>
       </div>
     </div>
