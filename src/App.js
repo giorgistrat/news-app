@@ -44,12 +44,11 @@ function App() {
       <div className={styles["news-container"]}>
         <h1 className={styles['news-logo']}>RSSCHOOL News</h1>
         <h3 className={styles['news-bar']}>NEWS</h3>
-
         <NewsFormField value={search} inputHandlerFunc={inputHandler} submitHandlerFunc={submitHandler} />
       </div>
       <div className={styles["news"]}>
         <Switch>
-          <Route path='/' exact>
+          <Route path='/'>
             {news.length === 0 && loading === true ? (<p className={styles['data-information']}>No information was found</p>) : ''}
             {loading ?
               (news.map((newsItem, i) => (
